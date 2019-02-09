@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="ru.isu.swa.diplom.view.ChatActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="4dp"
+        app:subtitleTextColor="@color/md_white_1000"
+        app:titleMargin="0dp"
+        app:titleTextColor="@color/md_white_1000" />
+
+
+    <LinearLayout
+        android:id="@+id/layoutMapView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:weightSum="100"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_weight="1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <com.yandex.mapkit.mapview.MapView
+            android:id="@+id/mapview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_weight="90"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/swipeRefreshLayout"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/buttonCloseMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:text="Закрыть" />
+    </LinearLayout>
+
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="85"
+        android:visibility="visible"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_weight="1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/chatRView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical" />
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_weight="2"
+        app:layout_constraintVertical_weight="2"
+        tools:layout_editor_absoluteX="0dp">
+
+        <EditText
+            android:id="@+id/editTextChat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="Новое сообщение"
+            android:inputType="textMultiLine"
+            android:singleLine="false"
+            app:layout_constraintTop_toBottomOf="@+id/mapview"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <Button
+            android:id="@+id/buttonNewMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="0dp"
+            android:text="отправить"
+            app:layout_constraintStart_toEndOf="@+id/editTextChat"
+            tools:text="отправить" />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+

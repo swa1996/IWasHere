@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/c_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="100dp"
+    android:minWidth="100dp"
+    android:visibility="visible"
+    tools:context="ru.isu.swa.diplom.view.AuthActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="4dp"
+        app:titleMargin="0dp"
+        app:subtitleTextColor="@color/md_white_1000"
+        app:titleTextColor="@color/md_white_1000" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Получить пароль"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="32dp"
+        android:autoText="false"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Пароль"
+        android:inputType="numberPassword"
+        android:visibility="visible"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Введите ваш email"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:text="Enter your email" />
+
+    <LinearLayout
+        android:id="@+id/register"
+        android:layout_width="359dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:password="false"
+            android:text="регистрация"
+            android:textColor="@android:color/background_dark"
+            android:textSize="24sp"
+            android:textStyle="normal"
+            tools:text="регистрация" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

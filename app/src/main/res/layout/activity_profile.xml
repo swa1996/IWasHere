@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ProfileActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="4dp"
+        app:titleMargin="0dp"
+        app:subtitleTextColor="@color/md_white_1000"
+        app:titleTextColor="@color/md_white_1000" />
+
+    <TextView
+        android:id="@+id/textProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="TextView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress|textPersonName"
+        android:text="Email"
+        app:layout_constraintTop_toBottomOf="@+id/textProfile"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Номер телефона"
+        android:inputType="phone"
+        android:text="Номер телефона"
+        app:layout_constraintTop_toBottomOf="@+id/editEmail"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Имя"
+        android:inputType="textPersonName"
+        android:text="Имя"
+        app:layout_constraintTop_toBottomOf="@+id/editPhone"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Фамилия"
+        android:inputType="textPersonName"
+        android:text="Фамилия"
+        app:layout_constraintTop_toBottomOf="@+id/editFirstName"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/buttonProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Изменить"
+        app:layout_constraintTop_toBottomOf="@+id/editLastName"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutExitAll"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/buttonProfile"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/textExitAll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Выйти везде"
+            android:textSize="20sp"
+            tools:text="Выйти везде" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

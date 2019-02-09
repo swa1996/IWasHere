@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.isu.swa.diplom.view.NewMarkActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="4dp"
+        app:titleMargin="0dp"
+        app:subtitleTextColor="@color/md_white_1000"
+        app:titleTextColor="@color/md_white_1000" />
+
+    <TextView
+        android:id="@+id/textProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="TextView"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <CheckBox
+        android:id="@+id/isAnonymed"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:text="Анонимно"
+        app:layout_constraintTop_toBottomOf="@+id/fieldTextMark"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <CheckBox
+        android:id="@+id/isEncrypted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Зашифровать"
+        app:layout_constraintTop_toBottomOf="@+id/isAnonymed"
+        tools:layout_editor_absoluteX="0dp"
+        tools:text="Зашифровать" />
+
+    <EditText
+        android:id="@+id/fieldTextMark"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Введите текст"
+        android:inputType="textMultiLine"
+        app:layout_constraintTop_toBottomOf="@+id/textProfile"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/buttonNewMark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Добавить метку"
+        app:layout_constraintTop_toBottomOf="@+id/isEncrypted"
+        tools:layout_editor_absoluteX="0dp"
+        tools:text="Добавить метку" />
+</android.support.constraint.ConstraintLayout>
