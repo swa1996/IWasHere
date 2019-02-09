@@ -1,0 +1,100 @@
+[11-Jan-2018 23:28:55 UTC] PHP Fatal error:  Cannot use 'Object' as class name as it is reserved in /home/wss118/public_html/basic/vendor/yiisoft/yii2/base/Object.php on line 28
+[11-Jan-2018 23:29:29 UTC] PHP Fatal error:  Cannot use 'Object' as class name as it is reserved in /home/wss118/public_html/basic/vendor/yiisoft/yii2/base/Object.php on line 28
+[16-Jan-2018 02:25:44 UTC] PHP Fatal error:  Cannot make static method yii\db\ActiveRecord::tableName() non static in class app\models\User in /home/wss118/models/User.php on line 6
+[16-Jan-2018 07:14:51 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/wss118/public_html/test.php on line 3
+[16-Jan-2018 08:06:57 UTC] PHP Notice:  Undefined index: message in /home/wss118/public_html/test.php on line 2
+[16-Jan-2018 08:21:37 UTC] PHP Notice:  Undefined index: message in /home/wss118/public_html/test.php on line 2
+[16-Jan-2018 08:21:59 UTC] PHP Notice:  Undefined index: message in /home/wss118/public_html/test.php on line 2
+[17-Jan-2018 03:51:02 UTC] PHP Fatal error:  Cannot redeclare app\controllers\ApiController::actionAuth() in /home/wss118/controllers/ApiController.php on line 71
+[17-Jan-2018 04:39:46 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 8
+[17-Jan-2018 04:41:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DateTime::forman() in /home/wss118/public_html/test.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/wss118/public_html/test.php on line 8
+[17-Jan-2018 04:41:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DateTime::forman() in /home/wss118/public_html/test.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/wss118/public_html/test.php on line 8
+[17-Jan-2018 04:41:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DateTime::forman() in /home/wss118/public_html/test.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/wss118/public_html/test.php on line 8
+[17-Jan-2018 04:41:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DateTime::forman() in /home/wss118/public_html/test.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/wss118/public_html/test.php on line 8
+[17-Jan-2018 04:41:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DateTime::forman() in /home/wss118/public_html/test.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/wss118/public_html/test.php on line 8
+[17-Jan-2018 04:41:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method DateTime::forman() in /home/wss118/public_html/test.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/wss118/public_html/test.php on line 8
+[17-Jan-2018 04:46:15 UTC] PHP Parse error:  syntax error, unexpected 'print' (T_PRINT) in /home/wss118/public_html/test.php on line 10
+[17-Jan-2018 04:46:20 UTC] PHP Parse error:  syntax error, unexpected 'print' (T_PRINT) in /home/wss118/public_html/test.php on line 10
+[17-Jan-2018 04:46:33 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 9
+[17-Jan-2018 04:47:08 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 9
+[17-Jan-2018 04:47:34 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 10
+[17-Jan-2018 04:47:37 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 10
+[17-Jan-2018 04:47:38 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 10
+[17-Jan-2018 04:47:40 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 10
+[17-Jan-2018 04:47:58 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 10
+[17-Jan-2018 04:48:02 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 10
+[17-Jan-2018 04:48:03 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 10
+[17-Jan-2018 04:48:04 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 10
+[17-Jan-2018 04:48:05 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 10
+[17-Jan-2018 05:03:30 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 11
+[17-Jan-2018 05:48:32 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 11
+[17-Jan-2018 07:01:38 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 11
+[17-Jan-2018 07:01:38 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 11
+[17-Jan-2018 07:02:21 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:24 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:25 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:26 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:27 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:28 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:30 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:31 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:31 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:32 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:33 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:49 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:50 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:51 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:51 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:02:52 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:03:58 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:04:01 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:04:02 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:28:37 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 07:28:37 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 08:03:58 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 08:04:35 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 08:05:56 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 08:06:33 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 08:07:23 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[17-Jan-2018 08:07:58 UTC] PHP Recoverable fatal error:  Object of class DateTime could not be converted to string in /home/wss118/public_html/test.php on line 12
+[09-Apr-2018 05:58:54 UTC] PHP Notice:  Undefined offset: 1 in /home/wss118/vendor/yiisoft/yii2/log/Target.php on line 363
+[09-Apr-2018 05:59:42 UTC] PHP Notice:  Undefined offset: 1 in /home/wss118/vendor/yiisoft/yii2/log/Target.php on line 363
+[09-Apr-2018 06:01:26 UTC] PHP Notice:  Undefined offset: 1 in /home/wss118/vendor/yiisoft/yii2/log/Target.php on line 363
+[09-Apr-2018 06:04:50 UTC] PHP Notice:  Undefined offset: 1 in /home/wss118/vendor/yiisoft/yii2/log/Target.php on line 363
+[09-Apr-2018 06:06:16 UTC] PHP Notice:  Undefined offset: 1 in /home/wss118/vendor/yiisoft/yii2/log/Target.php on line 363
+[09-Apr-2018 06:07:54 UTC] PHP Notice:  Undefined offset: 1 in /home/wss118/vendor/yiisoft/yii2/log/Target.php on line 363
+[09-Apr-2018 06:08:46 UTC] PHP Notice:  Undefined offset: 1 in /home/wss118/vendor/yiisoft/yii2/log/Target.php on line 363
+[09-Apr-2018 06:14:04 UTC] PHP Notice:  Undefined offset: 1 in /home/wss118/vendor/yiisoft/yii2/log/Target.php on line 363
+[05-Jun-2018 21:32:04 UTC] PHP Warning:  Uncaught yii\base\ErrorException: Object of class app\models\User could not be converted to string in /home/wss118/controllers/ApiController.php:657
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(4096, 'Object of class...', '/home/wss118/co...', 657, Array)
+#1 /home/wss118/controllers/ApiController.php(657): array_intersect(Array, Array)
+#2 [internal function]: app\controllers\ApiController->actionGetFriends()
+#3 /home/wss118/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/wss118/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/wss118/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('get-friends', Array)
+#6 /home/wss118/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('api/get-friends', Array)
+#7 /home/wss118/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/wss118/public_html/inde in /home/wss118/controllers/ApiController.php on line 657
+[05-Jun-2018 21:32:04 UTC] PHP Fatal error:  Object of class app\models\User could not be converted to string in /home/wss118/controllers/ApiController.php on line 657
+[05-Jun-2018 21:34:33 UTC] PHP Fatal error:  Method app\models\User::__toString() must not throw an exception, caught yii\base\ErrorException: Method app\models\User::__toString() must return a string value in /home/wss118/controllers/ApiController.php on line 657
+[11-Jun-2018 15:31:53 UTC] PHP Notice:  Undefined offset: 1 in /home/wss118/vendor/yiisoft/yii2/log/Target.php on line 363
+[11-Jun-2018 15:39:58 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/wss118/controllers/ApiController.php on line 731
